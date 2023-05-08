@@ -1,6 +1,18 @@
-header {
-  background-color: aquamarine;
+div {
+  border: solid 2px black;
+  padding: 20px;
 }
-header h1 {
-  color: red;
-} /*# sourceMappingURL=main.css.map */
+
+#container-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+#container-wrapper #activites {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+#container-wrapper #bus {
+  grid-column: 3/4;
+  grid-row: 1/3;
+}/*# sourceMappingURL=main.css.map */
