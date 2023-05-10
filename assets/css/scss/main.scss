@@ -7,7 +7,7 @@ div {
   display: grid;
   grid-template-columns: 1fr 0.5fr 1fr;
   grid-template-rows: 1fr 1fr;
-  // background-color: turquoise;
+  background-color: turquoise;
 
   #activites {
     grid-column: 1 / 2;
@@ -24,9 +24,9 @@ div {
   }
 }
 
-// #activites{
-//   background-color: rgba(236, 85, 15, 0.786);
-// }
+#activites{
+  background-color: rgba(236, 85, 15, 0.786);
+}
 
 .city{
   border: none;
@@ -103,46 +103,46 @@ div {
   margin-right: auto;
 }
 
-// #menu{
-//   background: #07d90ad0;
-//   font-family: sans-serif;
-//   font-size: 10px;
-//   color: white;
-//   padding: 0;
-//   padding-bottom: 0.5em;
-//   padding-top:  0.5em;
-//   border: none;  
-//   border-bottom-left-radius: 10px;
-//   border-bottom-right-radius: 10px;
-//   border-top-left-radius: 10px;
-//   border-top-right-radius: 10px;
-//   // width: 100%;
-//   // max-width: 120px;testingtesting
-//   margin: 0;
-//   width:57%;
-//   text-align: center;
-//   display: block;
-//   margin-left: auto;
-//   margin-right: auto;}
+#menu{
+  background: #07d90ad0;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: white;
+  padding: 0;
+  padding-bottom: 0.5em;
+  padding-top:  0.5em;
+  border: none;  
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  // width: 100%;
+  // max-width: 120px;testingtesting
+  margin: 0;
+  width:57%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
 
-// #extra{
-//   background: #d907b2d0;
-//   font-family: sans-serif;
-//   font-size: 10px;
-//   color: white;
-//   padding: 0;
-//   padding-bottom: 0.5em;
-//   padding-top:  0.5em;
-//   border: none;  
-//   border-bottom-left-radius: 10px;
-//   border-bottom-right-radius: 10px;
-//   border-top-left-radius: 10px;
-//   border-top-right-radius: 10px;
-//   // width: 100%;
-//   // max-width: 120px;testingtesting
-//   margin: 0;
-//   width:57%;
-//   text-align: center;
-//   display: block;
-//   margin-left: auto;
-//   margin-right: auto;}
+#extra{
+  background: #d907b2d0;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: white;
+  padding: 0;
+  padding-bottom: 0.5em;
+  padding-top:  0.5em;
+  border: none;  
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  // width: 100%;
+  // max-width: 120px;testingtesting
+  margin: 0;
+  width:57%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}

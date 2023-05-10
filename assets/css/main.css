@@ -7,6 +7,7 @@ div {
   display: grid;
   grid-template-columns: 1fr 0.5fr 1fr;
   grid-template-rows: 1fr 1fr;
+  background-color: turquoise;
 }
 #container-wrapper #activites {
   grid-column: 1/2;
@@ -19,6 +20,10 @@ div {
 #container-wrapper #menu {
   grid-column: 2/1;
   grid-row: 2/4;
+}
+
+#activites {
+  background-color: rgba(236, 85, 15, 0.786);
 }
 
 .city {
@@ -70,6 +75,48 @@ div {
 
 #bus {
   background: rgba(0, 0, 0, 0.8156862745);
+  font-family: sans-serif;
+  font-size: 10px;
+  color: white;
+  padding: 0;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0;
+  width: 57%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menu {
+  background: rgba(7, 217, 10, 0.8156862745);
+  font-family: sans-serif;
+  font-size: 10px;
+  color: white;
+  padding: 0;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0;
+  width: 57%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#extra {
+  background: rgba(217, 7, 178, 0.8156862745);
   font-family: sans-serif;
   font-size: 10px;
   color: white;
