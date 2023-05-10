@@ -7,7 +7,7 @@
           let html = "";
           let counter = 0;
 
-          // Iterate over each departure and create HTML elements
+          // Iterate over each departure and create HTML elements with desired info
           departures.forEach(departure => {
             if (counter < limit) {
               html += "<div>" +
