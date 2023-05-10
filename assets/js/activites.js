@@ -1,5 +1,4 @@
-const scheduleAPI =
-  "https://iws.itcn.dk/techcollege/schedules?departmentcode=smed";
+const scheduleAPI = "../../localfiles/schedules.json";
 
 // console.log(todayWeather);
 
