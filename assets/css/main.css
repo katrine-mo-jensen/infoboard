@@ -24,6 +24,10 @@ div {
   grid-column: 2;
   grid-row: 1;
 }
+#container-wrapper #date {
+  grid-column: 2;
+  grid-row: 1;
+}
 
 #activites {
   background-color: rgba(236, 85, 15, 0.786);
@@ -48,10 +52,9 @@ div {
   padding: 0;
   padding-top: 1em;
   border: none;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 10px;
   margin: 0;
-  margin-bottom: 15rem;
+  margin-bottom: 5rem;
   width: 57%;
   font-size: 2rem;
   text-align: center;
@@ -61,7 +64,6 @@ div {
 }
 
 .weather {
-  background: rgba(0, 0, 0, 0.8156862745);
   font-family: sans-serif;
   color: white;
   border: none;
@@ -113,6 +115,23 @@ div {
   border-top-right-radius: 10px;
   margin: 0;
   width: 57%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#date {
+  z-index: 1000;
+  font-family: sans-serif;
+  color: white;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 0;
+  margin-top: 4rem;
+  width: 48%;
+  font-size: 15px;
   text-align: center;
   display: block;
   margin-left: auto;
