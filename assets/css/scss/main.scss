@@ -8,6 +8,7 @@ div {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   // background-color: turquoise;
+  border: none;
 
   #activites {
     grid-column: 1;
@@ -24,6 +25,10 @@ div {
   }
 
   #clock, .weather, .temp {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  #date {
     grid-column: 2;
     grid-row: 1;
   }
@@ -52,12 +57,13 @@ div {
   padding: 0;
   padding-top: 1em;
   border: none;  
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 10px;
+  // border-top-left-radius: 10px;
+  // border-top-right-radius: 10px;
   // width: 100%;
   // max-width: 120px;
   margin: 0;
-  margin-bottom: 15rem;
+  margin-bottom: 5rem;
   width:57%;
   font-size: 2rem;
   text-align: center;
@@ -67,7 +73,7 @@ div {
 }
 
 .weather{
-  background: #000000d0;
+  // background: #000000d0;
   font-family: sans-serif;
   color: white;
   // padding-top: 30rem;
@@ -131,3 +137,24 @@ div {
   margin-left: auto;
   margin-right: auto;}
 
+#date{
+  // background: #000000d0;
+  z-index: 1000;
+  font-family: sans-serif;
+  color: white;
+  // padding-top: 30rem;
+  // padding-bottom: 1em;
+  border: none;  
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  // width: 100%;
+  // max-width: 120px;testingtesting
+  margin: 0;
+  margin-top: 4rem;
+  width:48%;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

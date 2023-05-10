@@ -1,6 +1,14 @@
 console.log("vejret");
 const wrapper = document.getElementById("container-wrapper");
 
+//DATE DATA
+const currentDate = new Date();
+const options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
+const dateString = currentDate.toLocaleDateString('da-DK', options);
+
+const dateElement = document.getElementById("date");
+dateElement.innerHTML = "" + dateString;//INSERT DAGENS DATO: IF NEEDED
+
 
 //CLOCK DATA
 let clock = document.getElementById('clock');
