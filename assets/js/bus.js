@@ -9,7 +9,7 @@
           // Iterate over each departure and create HTML elements with desired info
           departures.forEach(departure => {
             if (counter < limit) {
-              html += "<br>" +
+              html += "" +
                       "<p>Linje: " + departure.line + "</p>" +
                     //   "<p> " + departure.name + "</p>" +
                     //   "<p>Type: " + departure.type + "</p>" +
@@ -20,7 +20,7 @@
                     //   "<p>Messages: " + departure.messages + "</p>" +
                       "<p>Destination: " + departure.finalStop + "</p>" +
                     //   "<p>Direction: " + departure.direction + "</p>" +
-                      "</br>";
+                      "";
               counter++;
             }
           });
