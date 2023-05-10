@@ -1,0 +1,286 @@
+{
+  "MultiDepartureBoard":{
+    "noNamespaceSchemaLocation":"http://webapp.rejseplanen.dk/xml/rest/hafasRestMultiDepartureBoard.xsd",
+    "Departure":[{
+      "name":"Bybus 18",
+      "type":"BUS",
+      "stop":"TECHCOLLEGE (Øster Uttrupvej / Aalborg)",
+      "time":"11:09",
+      "date":"10.05.23",
+      "id":"851400602",
+      "line":"18",
+      "messages":"0",
+      "finalStop":"Aalborg Busterminal (Område C)",
+      "direction":"Aalborg Busterminal",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=95646%2F65290%2F19186%2F22289%2F86%3Fdate%3D10.05.23%26station_evaId%3D851400602%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 17",
+      "type":"BUS",
+      "stop":"Skovgårdsvej (Øster Sundby Vej / Aalborg)",
+      "time":"11:18",
+      "date":"10.05.23",
+      "id":"851973402",
+      "line":"17",
+      "messages":"1",
+      "finalStop":"Strubjerg (nord)",
+      "direction":"Strubjerg",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=468546%2F189573%2F683662%2F185659%2F86%3Fdate%3D10.05.23%26station_evaId%3D851973402%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 17",
+      "type":"BUS",
+      "stop":"Skovgårdsvej (Øster Sundby Vej / Aalborg)",
+      "time":"11:38",
+      "date":"10.05.23",
+      "id":"851973402",
+      "line":"17",
+      "messages":"1",
+      "finalStop":"Strubjerg (nord)",
+      "direction":"Strubjerg",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=500826%2F200333%2F898192%2F282165%2F86%3Fdate%3D10.05.23%26station_evaId%3D851973402%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 18",
+      "type":"BUS",
+      "stop":"TECHCOLLEGE (Øster Uttrupvej / Aalborg)",
+      "time":"11:40",
+      "date":"10.05.23",
+      "id":"851400602",
+      "line":"18",
+      "messages":"0",
+      "finalStop":"Aalborg Busterminal (Område C)",
+      "direction":"Aalborg Busterminal",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=123210%2F74476%2F697894%2F307877%2F86%3Fdate%3D10.05.23%26station_evaId%3D851400602%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 17",
+      "type":"BUS",
+      "stop":"Skovgårdsvej (Øster Sundby Vej / Aalborg)",
+      "time":"11:48",
+      "date":"10.05.23",
+      "id":"851973402",
+      "line":"17",
+      "messages":"1",
+      "finalStop":"Strubjerg (nord)",
+      "direction":"Strubjerg",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=399729%2F166633%2F221550%2F22468%2F86%3Fdate%3D10.05.23%26station_evaId%3D851973402%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 17",
+      "type":"BUS",
+      "stop":"Skovgårdsvej (Øster Sundby Vej / Aalborg)",
+      "time":"11:57",
+      "date":"10.05.23",
+      "id":"851973402",
+      "line":"17",
+      "messages":"1",
+      "finalStop":"Strubjerg (nord)",
+      "direction":"Strubjerg",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=964425%2F354871%2F358242%2F142354%2F86%3Fdate%3D10.05.23%26station_evaId%3D851973402%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 17",
+      "type":"BUS",
+      "stop":"Skovgårdsvej (Øster Sundby Vej / Aalborg)",
+      "time":"12:07",
+      "date":"10.05.23",
+      "id":"851973402",
+      "line":"17",
+      "messages":"1",
+      "finalStop":"Strubjerg (nord)",
+      "direction":"Strubjerg",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=480828%2F193669%2F176954%2F71799%2F86%3Fdate%3D10.05.23%26station_evaId%3D851973402%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 18",
+      "type":"BUS",
+      "stop":"TECHCOLLEGE (Øster Uttrupvej / Aalborg)",
+      "time":"12:10",
+      "date":"10.05.23",
+      "id":"851400602",
+      "line":"18",
+      "messages":"0",
+      "finalStop":"Aalborg Busterminal (Område C)",
+      "direction":"Aalborg Busterminal",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=423732%2F174650%2F88398%2F97046%2F86%3Fdate%3D10.05.23%26station_evaId%3D851400602%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 17",
+      "type":"BUS",
+      "stop":"Skovgårdsvej (Øster Sundby Vej / Aalborg)",
+      "time":"12:17",
+      "date":"10.05.23",
+      "id":"851973402",
+      "line":"17",
+      "messages":"1",
+      "finalStop":"Strubjerg (nord)",
+      "direction":"Strubjerg",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=708519%2F269569%2F690750%2F109203%2F86%3Fdate%3D10.05.23%26station_evaId%3D851973402%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 17",
+      "type":"BUS",
+      "stop":"Skovgårdsvej (Øster Sundby Vej / Aalborg)",
+      "time":"12:27",
+      "date":"10.05.23",
+      "id":"851973402",
+      "line":"17",
+      "messages":"1",
+      "finalStop":"Strubjerg (nord)",
+      "direction":"Strubjerg",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=119985%2F73388%2F478706%2F199359%2F86%3Fdate%3D10.05.23%26station_evaId%3D851973402%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 17",
+      "type":"BUS",
+      "stop":"Skovgårdsvej (Øster Sundby Vej / Aalborg)",
+      "time":"12:37",
+      "date":"10.05.23",
+      "id":"851973402",
+      "line":"17",
+      "messages":"1",
+      "finalStop":"Strubjerg (nord)",
+      "direction":"Strubjerg",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=793551%2F297913%2F969980%2F220475%2F86%3Fdate%3D10.05.23%26station_evaId%3D851973402%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 18",
+      "type":"BUS",
+      "stop":"TECHCOLLEGE (Øster Uttrupvej / Aalborg)",
+      "time":"12:40",
+      "date":"10.05.23",
+      "id":"851400602",
+      "line":"18",
+      "messages":"0",
+      "finalStop":"Aalborg Busterminal (Område C)",
+      "direction":"Aalborg Busterminal",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=895836%2F332018%2F186958%2F205135%2F86%3Fdate%3D10.05.23%26station_evaId%3D851400602%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 17",
+      "type":"BUS",
+      "stop":"Skovgårdsvej (Øster Sundby Vej / Aalborg)",
+      "time":"12:47",
+      "date":"10.05.23",
+      "id":"851973402",
+      "line":"17",
+      "messages":"1",
+      "finalStop":"Strubjerg (nord)",
+      "direction":"Strubjerg",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=328152%2F142777%2F128488%2F45142%2F86%3Fdate%3D10.05.23%26station_evaId%3D851973402%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 17",
+      "type":"BUS",
+      "stop":"Skovgårdsvej (Øster Sundby Vej / Aalborg)",
+      "time":"12:57",
+      "date":"10.05.23",
+      "id":"851973402",
+      "line":"17",
+      "messages":"1",
+      "finalStop":"Strubjerg (nord)",
+      "direction":"Strubjerg",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=263625%2F121271%2F471112%2F147684%2F86%3Fdate%3D10.05.23%26station_evaId%3D851973402%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 17",
+      "type":"BUS",
+      "stop":"Skovgårdsvej (Øster Sundby Vej / Aalborg)",
+      "time":"13:07",
+      "date":"10.05.23",
+      "id":"851973402",
+      "line":"17",
+      "messages":"1",
+      "finalStop":"Strubjerg (nord)",
+      "direction":"Strubjerg",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=330798%2F143659%2F216640%2F1949%2F86%3Fdate%3D10.05.23%26station_evaId%3D851973402%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 18",
+      "type":"BUS",
+      "stop":"TECHCOLLEGE (Øster Uttrupvej / Aalborg)",
+      "time":"13:10",
+      "date":"10.05.23",
+      "id":"851400602",
+      "line":"18",
+      "messages":"0",
+      "finalStop":"Aalborg Busterminal (Område C)",
+      "direction":"Aalborg Busterminal",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=707610%2F269276%2F620076%2F74171%2F86%3Fdate%3D10.05.23%26station_evaId%3D851400602%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 17",
+      "type":"BUS",
+      "stop":"Skovgårdsvej (Øster Sundby Vej / Aalborg)",
+      "time":"13:17",
+      "date":"10.05.23",
+      "id":"851973402",
+      "line":"17",
+      "messages":"1",
+      "finalStop":"Strubjerg (nord)",
+      "direction":"Strubjerg",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=389037%2F163075%2F785262%2F262956%2F86%3Fdate%3D10.05.23%26station_evaId%3D851973402%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 17",
+      "type":"BUS",
+      "stop":"Skovgårdsvej (Øster Sundby Vej / Aalborg)",
+      "time":"13:27",
+      "date":"10.05.23",
+      "id":"851973402",
+      "line":"17",
+      "messages":"1",
+      "finalStop":"Strubjerg (nord)",
+      "direction":"Strubjerg",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=450297%2F183492%2F261398%2F19404%2F86%3Fdate%3D10.05.23%26station_evaId%3D851973402%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 17",
+      "type":"BUS",
+      "stop":"Skovgårdsvej (Øster Sundby Vej / Aalborg)",
+      "time":"13:37",
+      "date":"10.05.23",
+      "id":"851973402",
+      "line":"17",
+      "messages":"1",
+      "finalStop":"Strubjerg (nord)",
+      "direction":"Strubjerg",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=522162%2F207450%2F412944%2F32423%2F86%3Fdate%3D10.05.23%26station_evaId%3D851973402%26%26format%3Djson"
+        }
+      },{
+      "name":"Bybus 18",
+      "type":"BUS",
+      "stop":"TECHCOLLEGE (Øster Uttrupvej / Aalborg)",
+      "time":"13:40",
+      "date":"10.05.23",
+      "id":"851400602",
+      "line":"18",
+      "messages":"0",
+      "finalStop":"Aalborg Busterminal (Område C)",
+      "direction":"Aalborg Busterminal",
+      "JourneyDetailRef":{
+        "ref":"http://webapp.rejseplanen.dk/bin//rest.exe/journeyDetail?ref=933423%2F344547%2F309930%2F156180%2F86%3Fdate%3D10.05.23%26station_evaId%3D851400602%26%26format%3Djson"
+        }
+      }]
+    }
+  }
