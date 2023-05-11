@@ -10,10 +10,11 @@
           departures.forEach(departure => {
             if (counter < limit) {
               html += "" +
+                      // "<p class='busheadline'>Linje </p>" +"<p class='busheadline'>Stoppested </p>"+"<p class='busheadline'>Ankomst </p>" +"<p class='busheadline'>Destination </p>" +
                       "<p class='departure'>Linje: " + departure.line + "</p>" +
                     //   "<p> " + departure.name + "</p>" +
                     //   "<p>Type: " + departure.type + "</p>" +
-                      "<p class='stoppested'>Stoppested: " + departure.stop + "</p>" +
+                      "<p class='stoppested'> " + departure.stop + "</p>" +
                       "<p class='ankomst'>Ankomst: " + departure.time + "</p>" +
                     //   "<p>Date: " + departure.date + "</p>" +
                     //   "<p>ID: " + departure.id + "</p>" +

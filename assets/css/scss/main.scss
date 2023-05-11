@@ -108,8 +108,8 @@ div {
   border-top-right-radius: 10px;
   // max-width: 220px;
   margin: 0;
-  width:70%;
-  text-align: center;
+  width:100%;
+  // text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -159,31 +159,59 @@ div {
   margin-right: auto;
 }
 
-//---- STYLING BUS ----
+
+
+//---- STYLING BUS ----------
+// .busheadline {
+//   font-size: 12px;
+//   font-weight: bold;
+//   color: #8168e2;
+//   text-align: left;
+//   display:inline;
+//   margin: 0;
+//   padding-left: 10px;
+// }
+
 .departure {
   font-size: 12px;
   font-weight: bold;
   color: #bc0c99;
   text-align: left;
+  display:inline;
+  padding: 10px;
+  // border-radius: 10%;
+  // border-color: #51d90d;
+  // border-width: 5%;
+  // border: 5px;
+  // border-style: dotted;
+
 }
 
 .stoppested {
   font-size: 12px;
   font-weight: bold;
   color: #0cbc23;
-  text-align: left;
+  text-align: right;
+  display:inline;
+  padding: 10px;
+
 }
 
 .ankomst {
   font-size: 12px;
   font-weight: bold;
   color: #2adde7;
-  text-align: right;
+  text-align: left;
+  display:inline;
+  padding: 10px;
+
 }
 
 .dest {
   font-size: 12px;
   font-weight: bold;
   color: #d9400d;
-  text-align: right;
+  text-align: left;
+  // display:right;
+  padding: 5px;
 }

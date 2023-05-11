@@ -94,8 +94,7 @@ div {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin: 0;
-  width: 70%;
-  text-align: center;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -144,25 +143,32 @@ div {
   font-weight: bold;
   color: #bc0c99;
   text-align: left;
+  display: inline;
+  padding: 10px;
 }
 
 .stoppested {
   font-size: 12px;
   font-weight: bold;
   color: #0cbc23;
-  text-align: left;
+  text-align: right;
+  display: inline;
+  padding: 10px;
 }
 
 .ankomst {
   font-size: 12px;
   font-weight: bold;
   color: #2adde7;
-  text-align: right;
+  text-align: left;
+  display: inline;
+  padding: 10px;
 }
 
 .dest {
   font-size: 12px;
   font-weight: bold;
   color: #d9400d;
-  text-align: right;
+  text-align: left;
+  padding: 5px;
 }/*# sourceMappingURL=main.css.map */
