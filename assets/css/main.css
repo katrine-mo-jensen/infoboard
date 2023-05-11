@@ -86,8 +86,7 @@ div {
   font-size: 8px;
   color: white;
   padding: 0;
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
+  padding-top: 2.5em;
   border: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -139,24 +138,23 @@ div {
 }
 
 .departure {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: bold;
-  color: #fcfcfc;
+  font-family: sans-serif;
+  color: #ffffff;
   text-align: left;
   display: inline;
-  padding: 10px;
-  border-radius: 5%;
-  border-color: #225b22;
-  border-width: 10%;
-  border: 5px;
-  border-style: none;
+  padding: 12px;
   background-image: url("/assets/img/underlogo02.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .stoppested {
   font-size: 12px;
   font-weight: bold;
-  color: #fcfcfc;
+  color: #ffffff;
   text-align: right;
   display: inline;
   padding: 10px;
@@ -165,16 +163,19 @@ div {
 .ankomst {
   font-size: 12px;
   font-weight: bold;
-  color: #2adde7;
+  color: #ffffff;
   text-align: left;
   display: inline;
   padding: 10px;
+  border: 1px;
+  border-radius: 5px;
+  background-color: rgba(111, 113, 114, 0.7176470588);
 }
 
 .dest {
   font-size: 12px;
   font-weight: bold;
-  color: #d9400d;
+  color: #ffd300;
   text-align: left;
   padding: 5px;
 }/*# sourceMappingURL=main.css.map */
