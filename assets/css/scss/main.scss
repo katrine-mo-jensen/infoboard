@@ -158,3 +158,32 @@ div {
   margin-left: auto;
   margin-right: auto;
 }
+
+//---- STYLING BUS ----
+.departure {
+  font-size: 12px;
+  font-weight: bold;
+  color: #bc0c99;
+  text-align: left;
+}
+
+.stoppested {
+  font-size: 12px;
+  font-weight: bold;
+  color: #0cbc23;
+  text-align: left;
+}
+
+.ankomst {
+  font-size: 12px;
+  font-weight: bold;
+  color: #2adde7;
+  text-align: right;
+}
+
+.dest {
+  font-size: 12px;
+  font-weight: bold;
+  color: #d9400d;
+  text-align: right;
+}
