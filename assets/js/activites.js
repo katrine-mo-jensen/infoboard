@@ -1,31 +1,35 @@
 const scheduleAPI = "../../localfiles/schedules.json";
-
-// console.log(todayWeather);
+const filterEducations = ["Grafisk teknik.", "Mediegrafiker", "Webudvikler"];
 
 fetch(scheduleAPI)
   .then((response) => {
     return response.json();
   })
   .then((data) => {
-    console.log(data);
-    addScehduleTooDom(data);
+    console.log("schedule:", data);
+    addScheduleToDOM(data);
   })
   .catch((error) => {
     console.log(error);
   });
 
-const activitesElement = document.querySelector("#activites");
+function addScheduleToDOM(scheduleData) {
+  const activitiesElement = document.querySelector("#activites");
 
-function addScehduleTooDom(product) {
-  const scheduleElement = document.createElement("div");
-  console.log(product);
-  scheduleElement.classList.add("item");
+  const filteredSchedules = scheduleData.value.filter((schedule) =>
+    filterEducations.includes(schedule.Education)
+  );
 
-  scheduleElement.innerHTML = `
-    <p>hello
-     </p>
-   
+  filteredSchedules.forEach((schedule) => {
+    const scheduleElement = document.createElement("div");
+    scheduleElement.classList.add("schedule");
+    scheduleElement.innerHTML = `
+    <p>${schedule.Subject}</p>
+    <p>${schedule.Team}</p>
+    <p>${schedule.Education}</p>
+    <p>${schedule.Room}</p>
     `;
 
-  activitesElement.appendChild(scheduleElement);
+    activitiesElement.appendChild(scheduleElement);
+  });
 }
