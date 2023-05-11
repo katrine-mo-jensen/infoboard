@@ -1,4 +1,4 @@
- // Fetching the JSON file and display the data
+ // Fetching the JSON file and display the data -testing
       fetch("../../localfiles/bustider.json")
         .then(response => response.json())
         .then(jsonData => {
