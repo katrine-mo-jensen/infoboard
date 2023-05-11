@@ -175,22 +175,28 @@ div {
 .departure {
   font-size: 12px;
   font-weight: bold;
-  color: #bc0c99;
+  color: #fcfcfc;
   text-align: left;
   display:inline;
   padding: 10px;
-  // border-radius: 10%;
-  // border-color: #51d90d;
-  // border-width: 5%;
-  // border: 5px;
-  // border-style: dotted;
+  // background-color: #fbc513d0;
+  border-radius: 5%;
+  border-color: #225b22;
+  border-width: 10%;
+  border: 5px;
+  border-style:none;
+  // text-decoration-line:underline;
+  // text-decoration-color: #1400f4;
+  // text-shadow: 1px 1px rgb(21, 0, 255);
+  // text-decoration-thickness:20%;
+  background-image: url("/assets/img/underlogo02.png");
 
 }
 
 .stoppested {
   font-size: 12px;
   font-weight: bold;
-  color: #0cbc23;
+  color: #fcfcfc;
   text-align: right;
   display:inline;
   padding: 10px;
