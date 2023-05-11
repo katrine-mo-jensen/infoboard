@@ -7,29 +7,38 @@ fetch(scheduleAPI)
   })
   .then((data) => {
     console.log("schedule:", data);
-    addScheduleToDOM(data);
+    addSchedulesToDOM(data);
   })
   .catch((error) => {
     console.log(error);
   });
 
-function addScheduleToDOM(scheduleData) {
+function addSchedulesToDOM(scheduleData) {
   const activitiesElement = document.querySelector("#activites");
+  activitiesElement.innerHTML = ""; // Clear the activities element before adding schedules
 
-  const filteredSchedules = scheduleData.value.filter((schedule) =>
-    filterEducations.includes(schedule.Education)
-  );
+  filterEducations.forEach((education) => {
+    const filteredSchedules = scheduleData.value.filter(
+      (schedule) => schedule.Education === education
+    );
 
-  filteredSchedules.forEach((schedule) => {
-    const scheduleElement = document.createElement("div");
-    scheduleElement.classList.add("schedule");
-    scheduleElement.innerHTML = `
+    filteredSchedules.forEach((schedule) => {
+      const scheduleElement = createScheduleElement(schedule);
+      activitiesElement.appendChild(scheduleElement);
+    });
+  });
+}
+
+function createScheduleElement(schedule) {
+  const scheduleElement = document.createElement("div");
+  scheduleElement.classList.add("schedule");
+  scheduleElement.innerHTML = `
     <p>${schedule.Subject}</p>
+    <p>Start time: ${new Date(schedule.StartDate).toLocaleTimeString()}</p>
     <p>${schedule.Team}</p>
     <p>${schedule.Education}</p>
     <p>${schedule.Room}</p>
-    `;
+  `;
 
-    activitiesElement.appendChild(scheduleElement);
-  });
+  return scheduleElement;
 }
