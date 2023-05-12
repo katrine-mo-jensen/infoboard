@@ -6,7 +6,7 @@ div {
 #container-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 500px 1fr;
+  grid-template-rows: 1fr 1fr;
   border: none;
 }
 #container-wrapper #activites {
@@ -36,7 +36,7 @@ div {
   background-color: rgba(236, 85, 15, 0.786);
   display: flex;
 }
-.schedule {
+#activites .schedule {
   display: flex;
 }
 
@@ -186,4 +186,4 @@ div {
   color: #ffd300;
   text-align: left;
   padding: 5px;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
