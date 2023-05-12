@@ -123,6 +123,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -205,11 +206,9 @@ body {
   margin: 0;
   margin-top: 5em;
   padding: 0;
-  size: 5em;
   display: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: auto;
 }
 
 .foodpic {
@@ -221,11 +220,12 @@ body {
   color: #ffffff;
   font-size: 12px;
   font-family: sans-serif;
+  text-decoration: underline;
 }
 
 .ret {
   color: #dfdf17;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .uge {
