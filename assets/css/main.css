@@ -3,6 +3,11 @@ div {
   padding: 20px;
 }
 
+body {
+  background: no-repeat;
+  background-size: cover;
+}
+
 #container-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
