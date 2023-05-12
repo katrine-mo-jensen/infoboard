@@ -1,31 +1,44 @@
 const scheduleAPI = "../../localfiles/schedules.json";
-
-// console.log(todayWeather);
+const filterEducations = ["Grafisk teknik.", "Mediegrafiker", "Webudvikler"];
 
 fetch(scheduleAPI)
   .then((response) => {
     return response.json();
   })
   .then((data) => {
-    console.log(data);
-    addScehduleTooDom(data);
+    console.log("schedule:", data);
+    addSchedulesToDOM(data);
   })
   .catch((error) => {
     console.log(error);
   });
 
-const activitesElement = document.querySelector("#activites");
+function addSchedulesToDOM(scheduleData) {
+  const activitiesElement = document.querySelector("#activites");
+  activitiesElement.innerHTML = ""; // Clear the activities element before adding schedules
 
-function addScehduleTooDom(product) {
+  filterEducations.forEach((education) => {
+    const filteredSchedules = scheduleData.value.filter(
+      (schedule) => schedule.Education === education
+    );
+
+    filteredSchedules.forEach((schedule) => {
+      const scheduleElement = createScheduleElement(schedule);
+      activitiesElement.appendChild(scheduleElement);
+    });
+  });
+}
+
+function createScheduleElement(schedule) {
   const scheduleElement = document.createElement("div");
-  console.log(product);
-  scheduleElement.classList.add("item");
-
+  scheduleElement.classList.add("schedule");
   scheduleElement.innerHTML = `
-    <p>hello
-     </p>
-   
-    `;
+    <p>${schedule.Subject}</p>
+    <p>Start time: ${new Date(schedule.StartDate).toLocaleTimeString()}</p>
+    <p>${schedule.Team}</p>
+    <p>${schedule.Education}</p>
+    <p>${schedule.Room}</p>
+  `;
 
-  activitesElement.appendChild(scheduleElement);
+  return scheduleElement;
 }
