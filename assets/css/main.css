@@ -61,7 +61,7 @@ body {
   border: none;
   border-radius: 10px;
   margin: 0;
-  margin-bottom: 9rem;
+  margin-bottom: 5rem;
   width: 40%;
   font-size: 2rem;
   text-align: center;
@@ -113,6 +113,7 @@ body {
   background-image: url();
   padding: 0;
   padding-top: 0.5em;
+  padding-bottom: 0.5em;
   border: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -191,29 +192,32 @@ body {
 
 .item {
   border: none;
+  padding: 0;
 }
 
 .ugensmenu {
-  font-size: 16px;
+  color: #ffd300;
+  font-size: 15px;
   font-family: sans-serif;
   font-weight: bold;
+  font-style: italic;
   background-image: url(/assets/img/iconfoodie.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 10em;
-  height: 110px;
+  width: 7em;
+  height: 90px;
   margin: 0;
-  margin-top: 5em;
-  padding: 0;
+  margin-top: 4em;
   display: center;
   margin-left: auto;
   margin-right: auto;
 }
 
 .foodpic {
-  width: 50%;
+  width: 40%;
   display: right;
+  border-radius: 5px;
 }
 
 .idag {
@@ -224,7 +228,7 @@ body {
 }
 
 .ret {
-  color: #dfdf17;
+  color: #ffd300;
   font-size: 13px;
 }
 
