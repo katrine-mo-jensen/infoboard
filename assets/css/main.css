@@ -12,7 +12,7 @@ body {
 #container-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 500px 1fr;
   border: none;
 }
 #container-wrapper #activites {
@@ -27,7 +27,9 @@ body {
   grid-column: 1;
   grid-row: 1;
 }
-#container-wrapper #clock, #container-wrapper .weather, #container-wrapper .temp {
+#container-wrapper #clock,
+#container-wrapper .weather,
+#container-wrapper .temp {
   grid-column: 2;
   grid-row: 1;
 }
@@ -46,7 +48,9 @@ body {
   margin: 0;
 }
 
-.temp, .flex, .description {
+.temp,
+.flex,
+.description {
   border: none;
   padding: 0;
   margin: 0;
@@ -189,6 +193,7 @@ body {
   color: #ffd300;
   text-align: left;
   padding: 5px;
+
 }
 
 .item {
@@ -237,3 +242,6 @@ body {
   color: #ffffff;
   font-size: 12px;
 }/*# sourceMappingURL=main.css.map */
+
+} /*# sourceMappingURL=main.css.map */
+

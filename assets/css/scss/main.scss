@@ -22,7 +22,7 @@ body{
   }
   #bus {
     grid-column: 3;
-    grid-row:1;
+    grid-row: 1;
   }
 
   #menu {
@@ -30,7 +30,9 @@ body{
     grid-row: 1;
   }
 
-  #clock, .weather, .temp {
+  #clock,
+  .weather,
+  .temp {
     grid-column: 2;
     grid-row: 1;
   }
@@ -40,30 +42,32 @@ body{
   }
 }
 
-#activites{
+#activites {
   background-color: rgba(236, 85, 15, 0.786);
 }
 
-.city{
+.city {
   border: none;
   padding: 0;
   margin: 0;
 }
 
-.temp, .flex, .description{
+.temp,
+.flex,
+.description {
   border: none;
   padding: 0;
   margin: 0;
   font-size: 12px;
 }
 
-#clock{
+#clock {
   background: #000000d0;
   font-family: sans-serif;
   color: white;
   padding: 0;
   padding-top: 1em;
-  border: none;  
+  border: none;
   border-radius: 10px;
   // border-top-left-radius: 10px;
   // border-top-right-radius: 10px;
@@ -72,6 +76,7 @@ body{
   margin: 0;
   margin-bottom: 5rem;
   width:40%;
+  width: 57%;
   font-size: 2rem;
   text-align: center;
   display: block;
@@ -79,13 +84,13 @@ body{
   margin-right: auto;
 }
 
-.weather{
+.weather {
   // background: #000000d0;
   font-family: sans-serif;
   color: white;
   // padding-top: 30rem;
   // padding-bottom: 1em;
-  border: none;  
+  border: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   // width: 100%;
@@ -93,6 +98,8 @@ body{
   margin: 0;
   margin-top: 7rem;
   // width:48%;
+
+  width: 48%;
   font-size: 10px;
   text-align: center;
   display: block;
@@ -100,7 +107,7 @@ body{
   margin-right: auto;
 }
 
-#bus{
+#bus {
   background: #000000d0;
   font-family: sans-serif;
   font-size: 8px;
@@ -108,8 +115,9 @@ body{
   padding: 0;
   padding-top:  2.5em;
   padding-left: 20px;
+  padding-top: 2.5em;
   // padding-bottom: 0.3em;
-  border: none;  
+  border: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -117,13 +125,14 @@ body{
   // max-width: 220px;
   margin: 0;
   width:80%;
+  width: 100%;
   // text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-#menu{
+#menu {
   background: #000000d0;
   font-family: sans-serif;
   font-size: 10px;
@@ -134,6 +143,9 @@ body{
   padding-top:  0.5em;
   padding-bottom: 0.5em;
   border: none;  
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  border: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -142,6 +154,8 @@ body{
   // max-width: 120px;testingtesting
   margin: 0;
   // width:10%;
+
+  width: 57%;
   text-align: center;
   display: block;
   margin-left: auto;
@@ -153,21 +167,21 @@ body{
 }
   
 
-#date{
+#date {
   // background: #000000d0;
   z-index: 1000;
   font-family: sans-serif;
   color: white;
   // padding-top: 30rem;
   // padding-bottom: 1em;
-  border: none;  
+  border: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   // width: 100%;
   // max-width: 120px;testingtesting
   margin: 0;
   margin-top: 4rem;
-  width:48%;
+  width: 48%;
   font-size: 15px;
   text-align: center;
   display: block;
@@ -175,8 +189,6 @@ body{
   margin-right: auto;
   
 }
-
-
 
 //---- STYLING BUS ----------
 // .busheadline {
@@ -195,7 +207,7 @@ body{
   font-family: sans-serif;
   color: #ffffff;
   text-align: left;
-  display:inline;
+  display: inline;
   padding: 12px;
   background-image: url("/assets/img/underlogo02.png");
   background-position: center;
@@ -208,9 +220,8 @@ body{
   font-weight: bold;
   color: #ffffff;
   text-align: right;
-  display:inline;
+  display: inline;
   padding: 10px;
-
 }
 
 .ankomst {
@@ -218,7 +229,7 @@ body{
   font-weight: bold;
   color: #ffffff;
   text-align: left;
-  display:inline;
+  display: inline;
   padding: 10px;
   border: 1px;
   border-radius: 5px;
