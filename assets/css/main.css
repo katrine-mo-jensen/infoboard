@@ -6,6 +6,7 @@ div {
 body {
   background: no-repeat;
   background-size: cover;
+  margin: auto;
 }
 
 #container-wrapper {
@@ -60,8 +61,8 @@ body {
   border: none;
   border-radius: 10px;
   margin: 0;
-  margin-bottom: 5rem;
-  width: 57%;
+  margin-bottom: 9rem;
+  width: 40%;
   font-size: 2rem;
   text-align: center;
   display: block;
@@ -77,7 +78,6 @@ body {
   border-bottom-right-radius: 10px;
   margin: 0;
   margin-top: 7rem;
-  width: 48%;
   font-size: 10px;
   text-align: center;
   display: block;
@@ -92,13 +92,14 @@ body {
   color: white;
   padding: 0;
   padding-top: 2.5em;
+  padding-left: 20px;
   border: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin: 0;
-  width: 100%;
+  width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -109,8 +110,8 @@ body {
   font-family: sans-serif;
   font-size: 10px;
   color: white;
+  background-image: url();
   padding: 0;
-  padding-bottom: 0.5em;
   padding-top: 0.5em;
   border: none;
   border-bottom-left-radius: 10px;
@@ -118,11 +119,13 @@ body {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin: 0;
-  width: 57%;
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 #date {
@@ -183,4 +186,49 @@ body {
   color: #ffd300;
   text-align: left;
   padding: 5px;
+}
+
+.item {
+  border: none;
+}
+
+.ugensmenu {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-image: url(/assets/img/iconfoodie.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10em;
+  height: 110px;
+  margin: 0;
+  margin-top: 5em;
+  padding: 0;
+  size: 5em;
+  display: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+.foodpic {
+  width: 50%;
+  display: right;
+}
+
+.idag {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.ret {
+  color: #dfdf17;
+  font-size: 14px;
+}
+
+.uge {
+  color: #ffffff;
+  font-size: 12px;
 }/*# sourceMappingURL=main.css.map */
