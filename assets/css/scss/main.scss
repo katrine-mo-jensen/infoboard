@@ -3,6 +3,12 @@ div {
   padding: 20px;
 }
 
+body{
+  background:no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
 #container-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -56,6 +62,7 @@ div {
   border: none;
   padding: 0;
   margin: 0;
+  font-size: 12px;
 }
 
 #clock {
@@ -72,6 +79,7 @@ div {
   // max-width: 120px;
   margin: 0;
   margin-bottom: 5rem;
+  width:40%;
   width: 57%;
   font-size: 2rem;
   text-align: center;
@@ -93,6 +101,8 @@ div {
   // max-width: 120px;testingtesting
   margin: 0;
   margin-top: 7rem;
+  // width:48%;
+
   width: 48%;
   font-size: 10px;
   text-align: center;
@@ -107,6 +117,8 @@ div {
   font-size: 8px;
   color: white;
   padding: 0;
+  padding-top:  2.5em;
+  padding-left: 20px;
   padding-top: 2.5em;
   // padding-bottom: 0.3em;
   border: none;
@@ -116,6 +128,7 @@ div {
   border-top-right-radius: 10px;
   // max-width: 220px;
   margin: 0;
+  width:80%;
   width: 100%;
   // text-align: center;
   display: block;
@@ -128,7 +141,12 @@ div {
   font-family: sans-serif;
   font-size: 10px;
   color: white;
+  background-image: url();
   padding: 0;
+  // padding-bottom: 0.5em;
+  padding-top:  0.5em;
+  padding-bottom: 0.5em;
+  border: none;  
   padding-bottom: 0.5em;
   padding-top: 0.5em;
   border: none;
@@ -139,12 +157,19 @@ div {
   // width: 100%;
   // max-width: 120px;testingtesting
   margin: 0;
+  // width:10%;
+
   width: 57%;
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
+  
 
 #date {
   // background: #000000d0;
@@ -166,6 +191,7 @@ div {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 //---- STYLING BUS ----------
@@ -222,4 +248,52 @@ div {
   // display:right;
   padding: 5px;
   // text-decoration: underline;
+}
+
+//---------  THIS SECTION IS FOR THE IMG FROM THE CANTINEMENU -----
+.item{
+  border: none;
+  padding: 0;
+}
+
+.ugensmenu{
+  color: #ffd300;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style:italic;
+  background-image: url(/assets/img/iconfoodie.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 7em;
+  height: 90px;
+  margin: 0;
+  margin-top: 4em;
+  display: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foodpic{
+  width: 40%;
+  // height: 5px;
+  display: right;
+  border-radius: 5px;
+}
+
+.idag{
+  color: #ffffff;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+.ret{
+  color: #ffd300;
+  font-size: 13px;
+}
+.uge{
+  color: #ffffff;
+  font-size: 12px;
+
 }

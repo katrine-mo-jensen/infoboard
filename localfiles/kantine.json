@@ -1,0 +1,40 @@
+{
+    "CanteenMenu": {
+      "DepartureOffsetTime": 0,
+      "Id": 1256,
+      "Schedules": {
+        "d2p1": "http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+      },
+      "ShowTime": false,
+      "Time": 10,
+      "Type": "kantineMenu",
+      "Weather": null,
+      "Days": {
+        "CanteenDay": [
+          {
+            "DayName": "Mandag",
+            "Dish": "Wok-nudler med kylling og grøntsager - kr. 32,00"
+          },
+          {
+            "DayName": "Tirsdag",
+            "Dish": "Svinefilet med forår og nye kartofler - kr. 32,00"
+          },
+          {
+            "DayName": "Onsdag",
+            "Dish": "Pasta med hvidløg og krydret pølse - kr. 32.00"
+          },
+          {
+            "DayName": "Torsdag",
+            "Dish": "Indisk risret med kylling - kr. 32,00"
+          },
+          {
+            "DayName": "Fredag",
+            "Dish": "Burger med stegte kartofler - kr. 32,00"
+          }
+        ]
+      },
+      "PictureUrl": "http://infoskaerm.techcollege.dk/media/1197/24-august-2020-bbq-kyllingelaar.jpg",
+      "Week": 19
+    }
+  }
+  
