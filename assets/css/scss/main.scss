@@ -44,6 +44,10 @@ body{
 
 #activites {
   background-color: rgba(236, 85, 15, 0.786);
+  display: flex;
+  .schedule {
+    display: flex;
+  }
 }
 
 .city {
