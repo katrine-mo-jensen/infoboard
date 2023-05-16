@@ -58,8 +58,21 @@ function addSchedulesToDOM(scheduleData) {
 function createScheduleElement(schedule) {
   const scheduleElement = document.createElement("div");
   scheduleElement.classList.add("schedule");
+
+  // Retrieve the date object from the schedule's start date
+  const startDate = new Date(schedule.StartDate);
+
+  // Extract the hours and minutes from the date object
+  const hours = startDate.getHours();
+  const minutes = startDate.getMinutes();
+
+  // Format the time in military format (24-hour format)
+  const militaryTime = `${hours.toString().padStart(2, "0")}:${minutes
+    .toString()
+    .padStart(2, "0")}`;
+
   scheduleElement.innerHTML = `
-    <p>${new Date(schedule.StartDate).toLocaleTimeString()}</p>
+    <p>${militaryTime}</p>
     <p>${schedule.Education}</p>
     <p>${schedule.Team}</p>
     <p>${schedule.Subject}</p>
