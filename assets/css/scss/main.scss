@@ -3,8 +3,8 @@ div {
   padding: 20px;
 }
 
-body{
-  background:no-repeat;
+body {
+  background: no-repeat;
   background-size: cover;
   margin: auto;
 }
@@ -12,12 +12,12 @@ body{
 #container-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 500px 1fr;
   // background-color: turquoise;
   border: none;
 
   #activites {
-    grid-column: 1;
+    grid-column: 1 / 4;
     grid-row: 2;
   }
   #bus {
@@ -79,7 +79,7 @@ body{
   // max-width: 120px;
   margin: 0;
   margin-bottom: 5rem;
-  width:40%;
+  width: 40%;
   width: 57%;
   font-size: 2rem;
   text-align: center;
@@ -117,7 +117,7 @@ body{
   font-size: 8px;
   color: white;
   padding: 0;
-  padding-top:  2.5em;
+  padding-top: 2.5em;
   padding-left: 20px;
   padding-top: 2.5em;
   // padding-bottom: 0.3em;
@@ -128,7 +128,7 @@ body{
   border-top-right-radius: 10px;
   // max-width: 220px;
   margin: 0;
-  width:80%;
+  width: 80%;
   width: 100%;
   // text-align: center;
   display: block;
@@ -144,9 +144,9 @@ body{
   background-image: url();
   padding: 0;
   // padding-bottom: 0.5em;
-  padding-top:  0.5em;
+  padding-top: 0.5em;
   padding-bottom: 0.5em;
-  border: none;  
+  border: none;
   padding-bottom: 0.5em;
   padding-top: 0.5em;
   border: none;
@@ -169,7 +169,6 @@ body{
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
-  
 
 #date {
   // background: #000000d0;
@@ -191,7 +190,6 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 //---- STYLING BUS ----------
@@ -251,21 +249,21 @@ body{
 }
 
 //---------  THIS SECTION IS FOR THE IMG FROM THE CANTINEMENU -----
-.item{
+.item {
   border: none;
   padding: 0;
 }
 
-.ugensmenu{
+.ugensmenu {
   color: #ffd300;
   font-size: 15px;
   font-family: sans-serif;
   font-weight: bold;
-  font-style:italic;
+  font-style: italic;
   background-image: url(/assets/img/iconfoodie.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: contain;
   width: 7em;
   height: 90px;
   margin: 0;
@@ -275,25 +273,24 @@ body{
   margin-right: auto;
 }
 
-.foodpic{
+.foodpic {
   width: 40%;
   // height: 5px;
   display: right;
   border-radius: 5px;
 }
 
-.idag{
+.idag {
   color: #ffffff;
   font-size: 12px;
   font-family: sans-serif;
   text-decoration: underline;
 }
-.ret{
+.ret {
   color: #ffd300;
   font-size: 13px;
 }
-.uge{
+.uge {
   color: #ffffff;
   font-size: 12px;
-
 }

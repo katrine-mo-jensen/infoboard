@@ -12,11 +12,11 @@ body {
 #container-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 500px 1fr;
   border: none;
 }
 #container-wrapper #activites {
-  grid-column: 1;
+  grid-column: 1/4;
   grid-row: 2;
 }
 #container-wrapper #bus {
@@ -72,6 +72,7 @@ body {
   margin: 0;
   margin-bottom: 5rem;
   width: 40%;
+  width: 57%;
   font-size: 2rem;
   text-align: center;
   display: block;
@@ -87,6 +88,7 @@ body {
   border-bottom-right-radius: 10px;
   margin: 0;
   margin-top: 7rem;
+  width: 48%;
   font-size: 10px;
   text-align: center;
   display: block;
@@ -102,6 +104,7 @@ body {
   padding: 0;
   padding-top: 2.5em;
   padding-left: 20px;
+  padding-top: 2.5em;
   border: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -109,6 +112,7 @@ body {
   border-top-right-radius: 10px;
   margin: 0;
   width: 80%;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -124,11 +128,15 @@ body {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   border: none;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  border: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin: 0;
+  width: 57%;
   text-align: center;
   display: block;
   margin-left: auto;
@@ -197,7 +205,6 @@ body {
   color: #ffd300;
   text-align: left;
   padding: 5px;
-
 }
 
 .item {
@@ -246,7 +253,3 @@ body {
   color: #ffffff;
   font-size: 12px;
 }/*# sourceMappingURL=main.css.map */
-
-} /*# sourceMappingURL=main.css.map */
-
-
