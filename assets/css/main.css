@@ -18,6 +18,8 @@ body {
 #container-wrapper #activites {
   grid-column: 1/4;
   grid-row: 2;
+  display: flex;
+  justify-content: space-between;
 }
 #container-wrapper #bus {
   grid-column: 3;
