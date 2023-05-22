@@ -24,9 +24,10 @@ function addKantineToDom(data) {
     kantineItemElement.innerHTML = `
       <p class="idag"> ${day.DayName}</p>
       <p class="ret">Ret: ${day.Dish}</p>
-      <p class="uge">Uge: ${data.CanteenMenu.Week}</p>
-      <img class="foodpic"= src="${data.CanteenMenu.PictureUrl}" alt="cantinefoods">
     `;
+    //<p class="uge">Uge: ${data.CanteenMenu.Week}</p>
+    //<img class="foodpic"= src="${data.CanteenMenu.PictureUrl}" alt="cantinefoods"> Hvis vi vil have billeder ind igen
+
 
     menuElement.appendChild(kantineItemElement);
   });
