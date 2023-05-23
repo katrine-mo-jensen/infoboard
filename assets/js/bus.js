@@ -3,7 +3,7 @@
         .then(response => response.json())
         .then(jsonData => {
           let departures = jsonData.MultiDepartureBoard.Departure;
-          let limit = 7; // Set the limit to desired departures
+          let limit = 5; // Set the limit to desired departures
           let html = "";
           let counter = 0;
           // Iterate over each departure and create HTML elements with desired info
