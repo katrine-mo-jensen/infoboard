@@ -9,7 +9,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  padding: 1.3px;
+  padding: 1.3rem;
 }
 #container-wrapper #activites {
   grid-column: 2/4;
@@ -20,13 +20,14 @@ body {
   padding-top: 1rem;
   border: none;
   border-radius: 0.6rem;
-  height: 90vh;
+  height: 95vh;
 }
 #container-wrapper #activites .schedule {
   display: flex;
   justify-content: space-between;
   border-top: white 1px solid;
   border-bottom: white 1px solid;
+  font-size: 2.2rem;
 }
 #container-wrapper #date {
   grid-column: 1/2;
