@@ -37,8 +37,7 @@ function addSchedulesToDOM(scheduleData) {
 
   const activitiesElement = document.querySelector("#activites");
   // Clear the activities element before adding schedules
-  activitiesElement.innerHTML = ""; 
-  
+  activitiesElement.innerHTML = "";
 
   // Create three column containers
   const columnContainer1 = document.createElement("div");
