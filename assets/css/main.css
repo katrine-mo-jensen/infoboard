@@ -39,7 +39,7 @@ body {
   margin: 0;
   margin-top: 4rem;
   width: 48%;
-  font-size: 20px;
+  font-size: 2.2rem;
   text-align: center;
   display: block;
   margin-left: auto;
@@ -55,7 +55,7 @@ body {
 #container-wrapper .weather .city,
 #container-wrapper .temp .city {
   color: #ffd300;
-  font-size: 20px;
+  font-size: 2.2rem;
   font-weight: bold;
   border: none;
   padding: 0;
@@ -98,7 +98,7 @@ body {
   margin: 0;
   margin-top: 7rem;
   /* width: 48%; */
-  font-size: 20px;
+  /* font-size: 2.2rem; */
   text-align: center;
   display: block;
   margin-left: auto;
@@ -110,6 +110,8 @@ body {
   background: rgba(0, 0, 0, 0.8156862745);
   color: white;
   padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
   border: none;
   border-radius: 10px;
   margin: 0;
@@ -119,19 +121,19 @@ body {
   margin-right: auto;
 }
 #container-wrapper #bus .departure {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   color: #ffffff;
   text-align: left;
   display: inline;
-  padding: 12px;
+  padding: 20px;
   background-image: url("/assets/img/underlogo02.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 #container-wrapper #bus .stoppested {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   color: #ffffff;
   text-align: right;
@@ -169,7 +171,7 @@ body {
 }
 #container-wrapper #menu .week {
   color: #f700ff;
-  font-size: 20px;
+  font-size: 2rem;
 }
 #container-wrapper #menu .idag {
   color: #ffffff;
