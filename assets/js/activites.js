@@ -3,24 +3,35 @@ const scheduleAPI = "../../localfiles/schedules.json";
   "https://iws.itcn.dk/techcollege/schedules?departmentcode=smed"; */
 const filterEducations = ["Grafisk teknik.", "Mediegrafiker", "Webudvikler"];
 
-fetch(scheduleAPI)
-  .then((response) => {
-    return response.json();
-  })
-  .then((data) => {
-    console.log("schedule:", data);
-    addSchedulesToDOM(data);
-  })
-  .catch((error) => {
-    console.log(error);
-  });
+// Function to fetch data from the API and update the DOM
+function fetchDataAndUpdateDOM() {
+  fetch(scheduleAPI)
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      console.log("schedule:", data);
+      addSchedulesToDOM(data);
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+}
+
+// Call the fetch function initially to load the data
+fetchDataAndUpdateDOM();
+
+// Set interval to refresh the data every day (24 hours)
+const refreshInterval = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+setInterval(fetchDataAndUpdateDOM, refreshInterval);
 
 function addSchedulesToDOM(scheduleData) {
   // console.log(scheduleData.value)
   const data = scheduleData.value;
 
   const activitiesElement = document.querySelector("#activites");
-  activitiesElement.innerHTML = ""; // Clear the activities element before adding schedules
+  // Clear the activities element before adding schedules
+  activitiesElement.innerHTML = "";
 
   // Create three column containers
   const columnContainer1 = document.createElement("div");
