@@ -1,4 +1,6 @@
 const scheduleAPI = "../../localfiles/schedules.json";
+/* const scheduleAPI =
+  "https://iws.itcn.dk/techcollege/schedules?departmentcode=smed"; */
 const filterEducations = ["Grafisk teknik.", "Mediegrafiker", "Webudvikler"];
 
 fetch(scheduleAPI)
@@ -79,11 +81,11 @@ function createScheduleElement(schedule) {
     .padStart(2, "0")}`;
 
   scheduleElement.innerHTML = `
-    <p>${militaryTime}</p>
-    <p>${schedule.Education}</p>
-    <p>${schedule.Team}</p>
-    <p>${schedule.Subject}</p>
-    <p>${schedule.Room}</p>
+    <p id="time">${militaryTime}</p>
+    <p id="edu">${schedule.Education}</p>
+    <p id="team">${schedule.Team}</p>
+    <p id="sub">${schedule.Subject}</p>
+    <p id="room">${schedule.Room}</p>
   `;
 
   return scheduleElement;

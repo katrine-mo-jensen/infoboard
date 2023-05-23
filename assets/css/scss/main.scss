@@ -10,7 +10,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  padding: 1.3rem;
+  margin: 1rem;
 
   #activites {
     grid-column: 2 / 4;
@@ -18,8 +18,6 @@ body {
     background: #000000d0;
     color: white;
     padding: 2.5rem;
-    padding-top: 1rem;
-    border: none;
     border-radius: 0.6rem;
     height: 95vh;
     .schedule {
@@ -27,7 +25,10 @@ body {
       justify-content: space-between;
       border-top: white 1px solid;
       border-bottom: white 1px solid;
-      font-size: 2.2rem;
+      font-size: 2.2em;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      text-align: center;
     }
   }
 
