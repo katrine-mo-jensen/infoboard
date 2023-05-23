@@ -1,33 +1,35 @@
 body {
   background: no-repeat;
   background-size: cover;
-  margin: 0 auto;
+  // margin: 0 auto;
   // padding: 10px;
   font-family: sans-serif;
 }
-
+main {
+  width: 3840px;
+  height: 2160px;
+}
 #container-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  padding: 1.3rem;
-
+  padding: 20px;
   #activites {
     grid-column: 2 / 4;
     grid-row: 1 / 4;
     background: #000000d0;
     color: white;
     padding: 2.5rem;
-    padding-top: 1rem;
-    border: none;
     border-radius: 0.6rem;
-    height: 95vh;
     .schedule {
       display: flex;
       justify-content: space-between;
       border-top: white 1px solid;
       border-bottom: white 1px solid;
-      font-size: 2.2rem;
+      font-size: 2.2em;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      text-align: center;
     }
   }
 
