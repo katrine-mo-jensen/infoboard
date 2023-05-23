@@ -166,7 +166,7 @@ body {
   grid-row: 2/3;
   background: rgba(0, 0, 0, 0.8156862745);
   color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: center;
   display: block;
   margin-left: auto;
@@ -176,14 +176,14 @@ body {
 }
 #container-wrapper #menu .week {
   color: #f700ff;
-  font-size: 12px;
+  font-size: 20px;
 }
 #container-wrapper #menu .idag {
   color: #ffffff;
-  font-size: 12px;
+  font-size: 20px;
   text-decoration: underline;
 }
 #container-wrapper #menu .ret {
   color: #ffd300;
-  font-size: 13px;
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */
