@@ -1,17 +1,19 @@
 body {
   background: no-repeat;
   background-size: cover;
-  margin: 0 auto;
+  // margin: 0 auto;
   // padding: 10px;
   font-family: sans-serif;
 }
-
+main {
+  width: 3840px;
+  height: 2160px;
+}
 #container-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  margin: 1rem;
-
+  padding: 20px;
   #activites {
     grid-column: 2 / 4;
     grid-row: 1 / 4;
@@ -19,7 +21,6 @@ body {
     color: white;
     padding: 2.5rem;
     border-radius: 0.6rem;
-    height: 95vh;
     .schedule {
       display: flex;
       justify-content: space-between;
