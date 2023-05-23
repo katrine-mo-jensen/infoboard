@@ -15,8 +15,8 @@ fetch(scheduleAPI)
 
 function addSchedulesToDOM(scheduleData) {
   // console.log(scheduleData.value)
-  const data =  scheduleData.value;
-  
+  const data = scheduleData.value;
+
   const activitiesElement = document.querySelector("#activites");
   activitiesElement.innerHTML = ""; // Clear the activities element before adding schedules
 
@@ -34,11 +34,11 @@ function addSchedulesToDOM(scheduleData) {
       (schedule) => schedule.Education === education
     );
     //Added slice to limit the schedule
-    newlist = filteredSchedules.slice(0,6)
-    console.log({filteredSchedules});
+    newlist = filteredSchedules.slice(0, 6);
+    // console.log({ filteredSchedules });
 
     newlist.forEach((schedule) => {
-      console.log(schedule);
+      // console.log(schedule);
       const scheduleElement = createScheduleElement(schedule);
 
       // Determine the appropriate column container based on the index

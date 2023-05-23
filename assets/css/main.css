@@ -1,93 +1,40 @@
 body {
   background: no-repeat;
   background-size: cover;
-  margin: auto;
-  padding: 10px;
+  margin: 0 auto;
+  font-family: sans-serif;
 }
 
 #container-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 500px 1fr;
-  border: none;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 1.3px;
 }
 #container-wrapper #activites {
-  grid-column: 1/4;
-  grid-row: 2;
-  display: flex;
-  justify-content: space-between;
+  grid-column: 2/4;
+  grid-row: 1/4;
   background: rgba(0, 0, 0, 0.8156862745);
-  font-family: sans-serif;
   color: white;
-  padding: 40px;
-  padding-top: 1em;
+  padding: 2.5rem;
+  padding-top: 1rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 0.6rem;
+  height: 90vh;
 }
 #container-wrapper #activites .schedule {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-  border-left: white 1px solid;
-  border-right: rgb(255, 255, 255) 1px solid;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-#container-wrapper #bus {
-  grid-column: 3;
-  grid-row: 1;
-  background: rgba(0, 0, 0, 0.8156862745);
-  font-family: sans-serif;
-  font-size: 8px;
-  color: white;
-  padding-right: 10px;
-  padding-top: 20px;
-  border: none;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  margin: 0;
-  margin-bottom: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-#container-wrapper #menu {
-  background: rgba(0, 0, 0, 0.8156862745);
-  font-family: sans-serif;
-  color: white;
-  padding: 0;
-  border: none;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  margin: 0;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-}
-#container-wrapper .uge {
-  color: #f700ff;
-  font-size: 12px;
-}
-#container-wrapper #clock,
-#container-wrapper .weather,
-#container-wrapper .temp {
-  grid-column: 2;
-  grid-row: 1;
+  gap: 1.3rem;
+  border-top: white 1px solid;
+  border-bottom: rgb(255, 255, 255) 1px solid;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
 }
 #container-wrapper #date {
-  grid-column: 2;
-  grid-row: 1;
+  grid-column: 1/2;
+  grid-row: 1/2;
   z-index: 1000;
-  font-family: sans-serif;
   color: #ffffff;
   padding-top: 15px;
   border: none;
@@ -102,8 +49,15 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-.city {
+#container-wrapper #clock,
+#container-wrapper .weather,
+#container-wrapper .temp {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+#container-wrapper #clock .city,
+#container-wrapper .weather .city,
+#container-wrapper .temp .city {
   color: #ffd300;
   font-size: 13px;
   font-weight: bold;
@@ -112,19 +66,22 @@ body {
   padding-bottom: 5px;
   margin: 0;
 }
-
-.temp,
-.flex,
-.description {
+#container-wrapper #clock .temp,
+#container-wrapper #clock .flex,
+#container-wrapper #clock .description,
+#container-wrapper .weather .temp,
+#container-wrapper .weather .flex,
+#container-wrapper .weather .description,
+#container-wrapper .temp .temp,
+#container-wrapper .temp .flex,
+#container-wrapper .temp .description {
   border: none;
   padding: 0;
   margin: 0;
   font-size: 12px;
 }
-
-#clock {
+#container-wrapper #clock {
   background: rgba(0, 0, 0, 0.8156862745);
-  font-family: sans-serif;
   color: white;
   padding: 0;
   padding-top: 1em;
@@ -140,9 +97,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-.weather {
-  font-family: sans-serif;
+#container-wrapper .weather {
   color: white;
   border: none;
   border-bottom-left-radius: 10px;
@@ -156,11 +111,28 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-.departure {
+#container-wrapper #bus {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background: rgba(0, 0, 0, 0.8156862745);
+  font-size: 8px;
+  color: white;
+  padding-right: 10px;
+  padding-top: 20px;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#container-wrapper #bus .departure {
   font-size: 11px;
   font-weight: bold;
-  font-family: sans-serif;
   color: #ffffff;
   text-align: left;
   display: inline;
@@ -170,8 +142,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
-
-.stoppested {
+#container-wrapper #bus .stoppested {
   font-size: 12px;
   font-weight: bold;
   color: #ffffff;
@@ -179,8 +150,7 @@ body {
   display: inline;
   padding: 10px;
 }
-
-.ankomst {
+#container-wrapper #bus .ankomst {
   font-size: 12px;
   font-weight: bold;
   color: #ffffff;
@@ -190,23 +160,36 @@ body {
   border-radius: 5px;
   background-color: rgba(111, 113, 114, 0.7176470588);
 }
-
-.dest {
+#container-wrapper #bus .dest {
   font-size: 12px;
   font-weight: bold;
   color: #ffd300;
   text-align: left;
   padding: 5px;
 }
-
-.idag {
+#container-wrapper #menu {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background: rgba(0, 0, 0, 0.8156862745);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: grid;
+}
+#container-wrapper #menu .week {
+  color: #f700ff;
+  font-size: 12px;
+}
+#container-wrapper #menu .idag {
   color: #ffffff;
   font-size: 12px;
-  font-family: sans-serif;
   text-decoration: underline;
 }
-
-.ret {
+#container-wrapper #menu .ret {
   color: #ffd300;
   font-size: 13px;
 }/*# sourceMappingURL=main.css.map */
