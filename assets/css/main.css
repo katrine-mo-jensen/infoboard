@@ -30,12 +30,12 @@ body {
   font-size: 2.2rem;
 }
 #container-wrapper #date {
-  grid-column: 1/2;
-  grid-row: 1/2;
+  grid-column: 1/1;
+  grid-row: 1/1;
   z-index: 1000;
   color: #ffffff;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 0;
   margin-top: 4rem;
   width: 48%;
@@ -59,7 +59,6 @@ body {
   font-weight: bold;
   border: none;
   padding: 0;
-  /* padding-bottom: 5px; */
   margin: 0;
 }
 #container-wrapper #clock .temp,
@@ -110,7 +109,6 @@ body {
   grid-row: 3/4;
   background: rgba(0, 0, 0, 0.8156862745);
   color: white;
-  /* padding-right: 10px; */
   padding-top: 20px;
   border: none;
   border-radius: 10px;
@@ -164,7 +162,6 @@ body {
   color: white;
   border-radius: 20px;
   text-align: center;
-  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
