@@ -18,12 +18,6 @@ function fetchDataAndUpdateDOM() {
     });
 }
 
-// Function to add schedules to the DOM
-function addSchedulesToDOM(scheduleData) {
-  // Rest of the code for adding schedules to the DOM
-  // ...
-}
-
 // Call the fetch function initially to load the data
 fetchDataAndUpdateDOM();
 
