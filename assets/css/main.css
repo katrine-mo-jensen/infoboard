@@ -12,7 +12,7 @@ main {
 #container-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 35em 35em 1fr;
+  grid-template-rows: 35em 55em 1fr;
   padding: 20px;
 }
 #container-wrapper #activites {
@@ -45,7 +45,7 @@ main {
   margin: 0;
   margin-top: 4rem;
   width: 48%;
-  font-size: 15px;
+  font-size: 40px;
   text-align: center;
   display: block;
   margin-left: auto;
@@ -61,7 +61,7 @@ main {
 #container-wrapper .weather .city,
 #container-wrapper .temp .city {
   color: #ffd300;
-  font-size: 13px;
+  font-size: 30px;
   font-weight: bold;
   border: none;
   padding: 0;
@@ -80,7 +80,7 @@ main {
   border: none;
   padding: 0;
   margin: 0;
-  font-size: 12px;
+  font-size: 40px;
 }
 #container-wrapper #clock {
   background: rgba(0, 0, 0, 0.8156862745);
@@ -90,10 +90,9 @@ main {
   border: none;
   border-radius: 10px;
   margin: 0;
-  margin-bottom: 15rem;
+  margin-bottom: 10rem;
   width: 40%;
-  width: 57%;
-  font-size: 2rem;
+  font-size: 40px;
   text-align: center;
   display: block;
   margin-left: auto;
@@ -113,6 +112,10 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+#container-wrapper .icon{
+  background-color: #f700ff;
+}
+
 #container-wrapper #bus {
   grid-column: 1/2;
   grid-row: 3/4;
@@ -180,18 +183,17 @@ main {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
-  display: grid;
 }
 #container-wrapper #menu .week {
   color: #f700ff;
-  font-size: 12px;
+  font-size: 35px;
 }
 #container-wrapper #menu .idag {
   color: #ffffff;
-  font-size: 12px;
+  font-size: 35px;
   text-decoration: underline;
 }
 #container-wrapper #menu .ret {
   color: #ffd300;
-  font-size: 13px;
+  font-size: 35px;
 }/*# sourceMappingURL=main.css.map */
