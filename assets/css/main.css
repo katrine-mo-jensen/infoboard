@@ -114,35 +114,24 @@ main {
   grid-column: 1/2;
   grid-row: 3/4;
   background: rgba(0, 0, 0, 0.8156862745);
-  font-size: 8px;
   color: white;
-  padding-right: 10px;
-  padding-top: 20px;
-  border: none;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  margin: 0;
-  margin-bottom: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
 }
 #container-wrapper #bus .departure {
-  font-size: 11px;
+  font-size: 1.5em;
   font-weight: bold;
   color: #ffffff;
   text-align: left;
   display: inline;
-  padding: 12px;
   background-image: url("/assets/img/underlogo02.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  padding: 30px;
 }
 #container-wrapper #bus .stoppested {
-  font-size: 12px;
+  font-size: 1.2em;
   font-weight: bold;
   color: #ffffff;
   text-align: right;
@@ -150,7 +139,7 @@ main {
   padding: 10px;
 }
 #container-wrapper #bus .ankomst {
-  font-size: 12px;
+  font-size: 1em;
   font-weight: bold;
   color: #ffffff;
   text-align: left;
@@ -160,11 +149,12 @@ main {
   background-color: rgba(111, 113, 114, 0.7176470588);
 }
 #container-wrapper #bus .dest {
-  font-size: 12px;
+  font-size: 1.2em;
   font-weight: bold;
   color: #ffd300;
   text-align: left;
   padding: 5px;
+  padding-bottom: 20px;
 }
 #container-wrapper #menu {
   background: rgba(0, 0, 0, 0.8156862745);

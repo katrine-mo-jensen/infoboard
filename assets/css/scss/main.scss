@@ -119,41 +119,26 @@ main {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
     background: #000000d0;
-    // font-family: sans-serif;
-    font-size: 8px;
     color: white;
-    // padding: 0;
-    padding-right: 10px;
-    padding-top: 20px;
-    border: none;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    // max-width: 220px;
-    margin: 0;
-    margin-bottom: 10px;
-    // width: 80%;
-    // text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+
     .departure {
-      font-size: 11px;
+      font-size: 1.5em;
       font-weight: bold;
-      // font-family: sans-serif;
       color: #ffffff;
       text-align: left;
       display: inline;
-      padding: 12px;
       background-image: url("/assets/img/underlogo02.png");
       background-position: center;
       background-repeat: no-repeat;
-      background-size: contain;
+      // background-size: contain;
+      padding: 30px;
     }
 
     .stoppested {
-      font-size: 12px;
+      font-size: 1.2em;
       font-weight: bold;
       color: #ffffff;
       text-align: right;
@@ -162,25 +147,23 @@ main {
     }
 
     .ankomst {
-      font-size: 12px;
+      font-size: 1em;
       font-weight: bold;
       color: #ffffff;
       text-align: left;
       display: inline;
       padding: 10px;
-      // border: 1px;
       border-radius: 5px;
       background-color: #6f7172b7;
     }
 
     .dest {
-      font-size: 12px;
+      font-size: 1.2em;
       font-weight: bold;
       color: #ffd300;
       text-align: left;
-      // display:right;
       padding: 5px;
-      // text-decoration: underline;
+      padding-bottom: 20px;
     }
   }
 
