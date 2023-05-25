@@ -1,4 +1,4 @@
-const kantineAPI = "../../localfiles/kantine.json";
+const kantineAPI = "https://infoskaerm.techcollege.dk/umbraco/api/content/getcanteenmenu/?type=json";
 
 fetch(kantineAPI)
   .then((response) => {
@@ -16,20 +16,20 @@ const menuElement = document.querySelector("#menu");
 const week = document.querySelector(".week");
 
 function addKantineToDom(data) {
-  const canteenDays = data.CanteenMenu.Days.CanteenDay;
+  console.log(data.Days); // Check the Days array
 
-  canteenDays.forEach((day) => {
-    week.innerHTML = `
-    <p class="week">Uge: ${data.CanteenMenu.Week}</p>
-    `;
+  week.innerHTML = `
+    <p class="week">Uge: ${data.Week}</p>
+  `;
+
+  data.Days.forEach((day) => {
     const kantineItemElement = document.createElement("div");
     kantineItemElement.classList.add("item");
 
     kantineItemElement.innerHTML = `
-      <p class="idag"> ${day.DayName}</p>
-      <p class="ret"> ${day.Dish}</p>
+      <p class="idag">${day.DayName}</p>
+      <p class="ret">${day.Dish}</p>
     `;
-    //<img class="foodpic"= src="${data.CanteenMenu.PictureUrl}" alt="cantinefoods"> Hvis vi vil have billeder ind igen
 
     menuElement.appendChild(kantineItemElement);
   });
