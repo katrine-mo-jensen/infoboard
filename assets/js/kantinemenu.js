@@ -1,4 +1,5 @@
-const kantineAPI = "https://infoskaerm.techcollege.dk/umbraco/api/content/getcanteenmenu/?type=json";
+const kantineAPI =
+  "https://infoskaerm.techcollege.dk/umbraco/api/content/getcanteenmenu/?type=json";
 
 fetch(kantineAPI)
   .then((response) => {
@@ -29,7 +30,7 @@ function addKantineToDom(data) {
     kantineItemElement.innerHTML = `
       <p class="idag">${day.DayName}</p>
       <p class="ret">${day.Dish}</p>
-    `;
+      `;
 
     menuElement.appendChild(kantineItemElement);
   });
