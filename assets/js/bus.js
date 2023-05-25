@@ -1,8 +1,6 @@
 // Fetching the JSON file and display the data -testing - lets see how it works
 function fetchAndDisplayBusDepartures() {
-  fetch(
-    "../../localfiles/bustider.json"
-  )
+  fetch("../../localfiles/bustider.json")
     .then((response) => response.json())
     .then((jsonData) => {
       let departures = jsonData.MultiDepartureBoard.Departure;
