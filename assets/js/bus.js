@@ -1,7 +1,7 @@
 // Fetching the JSON file and display the data -testing - lets see how it works
 function fetchAndDisplayBusDepartures() {
   fetch(
-    "https://xmlopen.rejseplanen.dk/bin/rest.exe/multiDepartureBoard?id1=851400602&id2=851973402&rttime&format=json&useBus=1"
+    "../../localfiles/bustider.json"
   )
     .then((response) => response.json())
     .then((jsonData) => {
