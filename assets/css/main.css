@@ -4,15 +4,15 @@ body {
   font-family: sans-serif;
 }
 
-/* main {
+main {
   width: 3840px;
   height: 2160px;
-} */
+}
 
 #container-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 500px 1fr;
   padding: 20px;
 }
 #container-wrapper #activites {
@@ -90,7 +90,7 @@ body {
   border: none;
   border-radius: 10px;
   margin: 0;
-  margin-bottom: 15rem;
+  margin-bottom: 2rem;
   width: 40%;
   width: 57%;
   font-size: 35px;
