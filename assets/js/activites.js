@@ -1,5 +1,5 @@
 const scheduleAPI =
-  "https://iws.itcn.dk/techcollege/schedules?departmentcode=smed";
+  "../../localfiles/schedules.json";
 /* const scheduleAPI =
   "https://iws.itcn.dk/techcollege/schedules?departmentcode=smed"; */
 const filterEducations = ["ggr010123", "gmg010123", "gwe010123"];
@@ -47,7 +47,7 @@ function addSchedulesToDOM(scheduleData) {
       (schedule) => schedule.Team === team
     );
     //Added slice to limit the schedule
-    newlist = filteredSchedules.slice(0, 7);
+    newlist = filteredSchedules.slice(0, 6);
     // console.log({ filteredSchedules });
 
     newlist.forEach((schedule) => {
