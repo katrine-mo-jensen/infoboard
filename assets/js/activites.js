@@ -42,7 +42,7 @@ function addSchedulesToDOM(scheduleData) {
   const columnContainer3 = document.createElement("div");
   columnContainer3.classList.add("column");
 
-  // Loop through each education name
+  // Loop through each teams name
   filterEducations.forEach((team, index) => {
     const filteredSchedules = data.filter(
       (schedule) => schedule.Team === team
