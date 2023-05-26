@@ -2,7 +2,7 @@ const scheduleAPI =
   "https://iws.itcn.dk/techcollege/schedules?departmentcode=smed";
 /* const scheduleAPI =
   "https://iws.itcn.dk/techcollege/schedules?departmentcode=smed"; */
-const filterEducations = ["Grafisk teknik.", "Mediegrafiker", "Webudvikler"];
+const filterEducations = ["ggr010123", "gmg010123", "gwe010123"];
 
 // Function to fetch data from the API and update the DOM
 function fetchDataAndUpdateDOM() {
@@ -43,12 +43,12 @@ function addSchedulesToDOM(scheduleData) {
   columnContainer3.classList.add("column");
 
   // Loop through each education name
-  filterEducations.forEach((education, index) => {
+  filterEducations.forEach((team, index) => {
     const filteredSchedules = data.filter(
-      (schedule) => schedule.Education === education
+      (schedule) => schedule.Team === team
     );
     //Added slice to limit the schedule
-    newlist = filteredSchedules.slice(0, 6);
+    newlist = filteredSchedules.slice(0, 7);
     // console.log({ filteredSchedules });
 
     newlist.forEach((schedule) => {
