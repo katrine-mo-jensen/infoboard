@@ -18,7 +18,6 @@ function fetchDataAndUpdateDOM() {
       console.log(error);
     });
 }
-
 // Call the fetch function initially to load the data
 fetchDataAndUpdateDOM();
 
